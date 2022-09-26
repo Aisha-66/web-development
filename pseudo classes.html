@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pseudo Classes</title>
+    <style>
+
+     div.h :nth-of-type(1){
+        color:black;
+        background-color: navy;  
+     }
+     div.container ul,li :nth-last-of-type(1){
+        color:black;
+        background-color: teal;
+     }
+
+     div.container :empty{
+        background-color: teal;
+        width: 100%;
+        height: 30px;
+     }
+     div.h2 :not(p){ 
+        color: red;
+        font-size: xx-large;
+     }
+     p:lang(i){
+        color:black;
+        border: 10px solid black;
+     }  
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="h">
+        <h1>Asian Sesame Dressing</h1></div>
+        <h2>Ingredients</h2>
+        <p><b>2 tbsp light soy sauce (Note 1)</p>
+        <p>1 tbsp sesame oil (toasted)</p>
+        <p>2 tbsp grapeseed oil</p>
+        <p>3 tbsp rice vinegar</p>
+        <p>1 tsp sugar</p>
+        <p>1 garlic clove</p>
+        <p>1/2 tsp black pepper</p>
+        <p>1 1/2 tsp fresh ginger</b></p>
+
+        <div class="h">
+        <h1>SALAD</h1></div>
+        <p><b>4 cups Chinese cabbage</p>
+        <p>1 1/2 cups red cabbage </p>
+        <p>1 cup carrot</p>
+        <p>2 cups chicken</p>
+        <p>1/2 cup shallots / scallions </b></p>
+    
+        <div class="h">
+        <h1>GARNISHES</h1></div>
+
+        <ul>
+       <li><b>1/2 to 1 cup crunchy noodles </b></li>
+    </ul>
+      <div class="h2">
+        <h2>Instructions</h2>
+      <p lang="i">Combine the Dressing ingredients in a jar and shake. Set aside for 10 minutes or so for the flavours to meld.
+Place the Salad ingredients together in a large bowl along with half the crunchy noodles. Drizzle over dressing then toss. (Note 4)
+Divide between serving bowls. Top with more crunchy noodles and a good sprinkle of sesame seeds. Serve immediately!</p>
+<p></p>
+
+      </div>
+</body>
+
+
+</html>
